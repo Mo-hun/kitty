@@ -1,0 +1,190 @@
+html{
+    background-color: #f2f6f9 !important;
+    font-size: 25px;
+}
+body{
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header{
+    position: absolute;
+    background-color: #0597F2;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color:white;
+    box-shadow: 0px 1px 5px 1px grey;
+}
+.header-text{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+.main_table{
+    position: absolute;
+    top:12%; left:5%;
+    width: 90%;
+    background-color: white;
+    border: 1px inset #1BB5F2;
+    min-height: 250px;
+}
+.profile{
+    width: 100%;
+    min-height: 130px;
+    background-color: white;
+    border: 1px solid #1BB5F2;
+    border-top: 0px;
+    border-left: 0px;
+}
+.name_text{
+    margin-top: 15px;
+    display: block;
+    width:30%;
+    min-width: 100px;
+    margin-left: 20px;
+    min-height: 120px;
+}
+@media only screen and (max-width: 740px){
+    .name{
+        min-height: 170px;
+    }
+    .main_table{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 466px){
+    .attend, .leave{
+        margin-top: 20px;
+    }
+    .main_table{
+        min-height: 475px !important;
+    }
+    .leave{
+        margin-left: 0px !important;
+    }
+    .name_input{
+        width:120px !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main_table{
+        min-height: 300px;
+    }
+    .progress{
+        float: left;
+        width: 80% !important;
+    }
+    .name{
+        min-height: 200px;
+    }
+}
+@media only screen and (min-width: 400px){
+    .name_text{
+        float: left;
+    }
+    .progress_box{
+        float: left;
+    }
+    .progress_box{
+        margin-top: 15px;
+    }
+}
+.name_input{
+    font-family: 'Noto Sans KR';
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    padding: 7px 0;
+    width: 100px;
+    background: transparent;
+    font-size: 20px;
+    transition: border-color 0.2s;
+}
+.submit{
+    font-family: 'Noto Sans KR';
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    padding: 7px 0;
+    width: 100px;
+    cursor: pointer;
+}
+.workbutton{
+    position: absolute;
+    margin-top: 15px;
+    left: 20px;
+}
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
+}
+.progress_box{
+    min-height: 100px;
+    width: 60%;
+    min-width: 170px;
+}
+.progress {
+    background-color: #d8d8d8;
+    border-radius: 15px;
+    position: relative;
+    margin: 15px 0;
+    margin-left: 20px;
+    height: 10px;
+    width: 100%;
+}
+.progress-done {
+    background: linear-gradient(to left, #F2709C, #FF9472);
+    border-radius: 15px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    opacity: 1;
+    max-width: 100%;
+}
+.progress_text{
+    width: 30%;
+    min-width: 170px;
+    margin-left: 20px;
+}
+.workbutton{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.attend{
+    display: inline-block;
+}
+.leave{
+    display: inline-block;
+    margin-left: 20px;
+}
+@media only screen and (min-width: 800px){
+    .progress_text{
+        float: left;
+    }
+    .progress{
+        float: left;
+    }
+}
+.week_time_text{
+    text-align: right;
+}
+/* .Пиакартил-–-Pharma-Onepage-Web-1-hex { color: #044BD9; }
+.Пиакартил-–-Pharma-Onepage-Web-2-hex { color: #0460D9; }
+.Пиакартил-–-Pharma-Onepage-Web-3-hex { color: #0597F2; }
+.Пиакартил-–-Pharma-Onepage-Web-4-hex { color: #1BB5F2; }
+.Пиакартил-–-Pharma-Onepage-Web-5-hex { color: #85D3F2; } */
